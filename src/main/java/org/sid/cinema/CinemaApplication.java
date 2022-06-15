@@ -16,6 +16,7 @@ public class CinemaApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+        String hello =  "hello ";
         cinemaInitService.initVilles();
         cinemaInitService.initCinemas();
         cinemaInitService.initSalles();
